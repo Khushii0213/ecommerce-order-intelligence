@@ -9,6 +9,9 @@ st.set_page_config(page_title="Order Intelligence", page_icon="📦", layout="wi
 
 
 def connection_url() -> str:
+    if "DATABASE_URL" in st.secrets:
+        return st.secrets["DATABASE_URL"]
+
     return os.getenv(
         "DATABASE_URL",
         "postgresql://analyst:analyst@localhost:5432/ecommerce",
