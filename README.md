@@ -2,6 +2,9 @@
 
 A portfolio project for investigating delivery, cancellation, and revenue-leakage questions in a realistic e-commerce marketplace. It demonstrates the analyst workflow: translate business questions into SQL, diagnose bottlenecks with `EXPLAIN ANALYZE`, apply measurable optimizations, and communicate outcomes in a lightweight dashboard.
 
+## 🔗 Live Demo
+https://ecommerce-order-intelligence-nynhhgs8uvffgdygwyhjapp.streamlit.app/
+
 ## What this demonstrates
 
 - PostgreSQL data modelling for orders, items, payments, customers, sellers, and products
